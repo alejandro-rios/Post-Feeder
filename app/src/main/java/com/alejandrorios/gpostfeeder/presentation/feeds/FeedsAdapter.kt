@@ -3,8 +3,8 @@ package com.alejandrorios.gpostfeeder.presentation.feeds
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.alejandrorios.domain.model.Feeds
 import com.alejandrorios.gpostfeeder.R
-import com.alejandrorios.gpostfeeder.domain.model.Feeds
 
 /**
  * Created by Alejandro Rios on 7/25/20

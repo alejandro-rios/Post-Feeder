@@ -1,6 +1,6 @@
 package com.alejandrorios.gpostfeeder.presentation.feeds
 
-import com.alejandrorios.gpostfeeder.domain.model.Feeds
+import com.alejandrorios.domain.model.Feeds
 import com.alejandrorios.gpostfeeder.presentation.base.BasePresenter
 import com.alejandrorios.gpostfeeder.presentation.base.BaseView
 

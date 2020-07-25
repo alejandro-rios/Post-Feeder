@@ -5,6 +5,7 @@
     android:id="@+id/cvFeedItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    app:cardElevation="0dp"
     app:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -16,8 +17,8 @@
             android:id="@+id/tvFeedUser"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
             android:paddingStart="16dp"
+            android:paddingTop="16dp"
             android:paddingEnd="16dp"
             android:textColor="@android:color/black"
             android:textSize="18sp"
@@ -60,7 +61,19 @@
             android:layout_marginTop="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvFeedInfo" />
+            app:layout_constraintTop_toBottomOf="@+id/tvFeedInfo"
+            tool:src="@drawable/ffffff" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivFeedImageExpand"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_expand"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tool:visibility="visible" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

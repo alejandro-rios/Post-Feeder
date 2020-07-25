@@ -3,4 +3,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="whats_on_your_mind_label">What\'s on your mind?</string>
+    <string name="button_add_photo_label">Add Photo</string>
+    <string name="create_post_toolbar_title">Create post</string>
+    <string name="share_label">Share</string>
+    <string name="counter_text">0/150</string>
 </resources>

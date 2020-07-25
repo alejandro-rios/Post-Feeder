@@ -1,9 +1,9 @@
 package com.alejandrorios.gpostfeeder.di
 
 import android.content.Context
+import com.alejandrorios.domain.interactor.Interactor
+import com.alejandrorios.domain.model.Feeds
 import com.alejandrorios.gpostfeeder.GorillaPostFeederApplication
-import com.alejandrorios.gpostfeeder.domain.Interactor
-import com.alejandrorios.gpostfeeder.domain.model.Feeds
 import com.alejandrorios.gpostfeeder.utils.CoroutinesContextProvider
 import dagger.BindsInstance
 import dagger.Component

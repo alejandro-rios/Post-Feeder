@@ -1,7 +1,7 @@
 package com.alejandrorios.gpostfeeder.presentation.feeds
 
-import com.alejandrorios.gpostfeeder.domain.Interactor
-import com.alejandrorios.gpostfeeder.domain.model.Feeds
+import com.alejandrorios.domain.interactor.Interactor
+import com.alejandrorios.domain.model.Feeds
 import com.alejandrorios.gpostfeeder.utils.CoroutinesContextProvider
 import javax.inject.Inject
 import kotlinx.coroutines.Job

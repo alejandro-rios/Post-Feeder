@@ -42,6 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
+        android:clickable="true"
+        android:focusable="false"
         android:padding="16dp"
         android:text="@string/whats_on_your_mind_label"
         app:layout_constraintEnd_toEndOf="parent"
