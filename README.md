@@ -10,3 +10,6 @@ This is a project that shows a list of feeds and let the user add new ones
   - Glide, to load Image resources.
 
 - Includes Interactor and Repository test.
+
+
+### Note: Since the time given was not enough to finish the application completely, please check the `complete_impl` branch in which the project is finished.
